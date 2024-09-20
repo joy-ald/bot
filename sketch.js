@@ -21,7 +21,7 @@ d3.csv(filename).then(function(loadedData) {
     
     // get the Date and Cost
     let DateIssued =     loadedData[i].Date;
-    let CC = loadedData[i].ConstructionCost;
+    let CC = parseFloat(loadedData[i].ConstructionCost); // Convert to float
     console.log(CC);
     
     // add the Date
