@@ -1,7 +1,7 @@
 
 
 // csv file 
-let filename = "https://github.com/joy-ald/bot/blob/main/per4.csv";
+let filename = "https://raw.githubusercontent.com/joy-ald/bot/refs/heads/main/per4.csv";
 
 // all code should be inside this command
 d3.csv(filename).then(function(loadedData) {
